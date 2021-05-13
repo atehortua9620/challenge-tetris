@@ -1,0 +1,179 @@
+/* esta clase genera un rectangulo de 500 x 800 pixeles */
+.container {
+  height: 500px;
+  width: 580px;
+  /* ademas le da un borde sólido de 3px de color salmón */
+  /* salmón, como el color de la camisa de ross 👀 */
+}
+
+/* este selector hace que todas las etiquetas div tengan el mismo tamaño */
+div {
+  height: 80px;
+  width: 80px;
+  background-color: rgb(236, 236, 236);
+  border: 1px dashed black;
+  /* mas adelante hablaremos de la propiedad float */
+  float: left;
+}
+
+/* crea clases para especificar colore s, los cuales usaras
+para crear tus piezas de tetris, por ejemplo, esta: */
+
+.uno {
+  background-color: orange;
+  border-left: blue solid 1px;
+  border-right: blue solid 1px;
+  border-top: blue solid 1px;
+}
+.ocho {
+  background-color: orange;
+  border-left: blue solid 1px;
+}
+
+.quin {
+  background-color: orange;
+  border-left: blue solid 1px;
+  border-right: blue solid 1px;
+  border-bottom: blue solid 1px;
+}
+.nuev {
+  background-color: orange;
+  border-bottom: blue solid 1px;
+  border-right: blue solid 1px;
+  border-top: blue solid 1px;
+}
+
+.dos {
+  background-color: green;
+  border-left: blue solid 1px;
+  border-top: blue solid 1px;
+  border-bottom: blue solid 1px;
+}
+.tres {
+  background-color: green;
+  border-right: blue solid 1px;
+  border-top: blue solid 1px;
+}
+.diez {
+  background-color: green;
+  border-left: blue solid 1px;
+  border-right: blue solid 1px;
+}
+.dsiet {
+  background-color: green;
+  border-left: blue solid 1px;
+  border-right: blue solid 1px;
+  border-bottom: blue solid 1px;
+}
+.cuat {
+  background-color: yellow;
+  border-top: solid blue 1px;
+  border-bottom: solid blue 1px;
+  border-left: solid blue 1px;
+}
+.cinq {
+  background-color: yellow;
+  border-top: solid blue 1px;
+  border-bottom: solid blue 1px;
+}
+.seis {
+  background-color: yellow;
+  border-top: solid blue 1px;
+  border-bottom: solid blue 1px;
+}
+.siet {
+  background-color: yellow;
+  border-top: solid blue 1px;
+  border-bottom: solid blue 1px;
+  border-right: solid blue 1px;
+}
+.once,
+.doce,
+.docho,
+.dnuev {
+  background: blue;
+  color: white;
+  border: dashed white 1px;
+}
+
+.trec {
+  background: red;
+  border-left: solid blue 1px;
+  border-top: solid blue 1px;
+  border-bottom: solid blue 1px;
+}
+
+.cato {
+  background: red;
+  border-right: solid blue 1px;
+  border-top: solid blue 1px;
+}
+.vuno {
+  background: red;
+  border-right: solid blue 1px;
+  border-left: solid blue 1px;
+}
+.vocho {
+  background: red;
+  border-right: solid blue 1px;
+  border-left: solid blue 1px;
+  border-bottom: solid blue 1px;
+}
+.vein,
+.vsiet,
+.vcinq,
+.vseis {
+  background: salmon;
+}
+.vsiet,
+.vcinq,
+.vseis {
+  border-bottom: solid blue 1px;
+}
+
+.dseis,
+.vtres,
+.vcuat,
+.vdos {
+  background: greenyellow;
+}
+
+.vdos,
+.vtres,
+.vcuat {
+  border-bottom: solid blue 1px;
+}
+
+.vnuev,
+.tseis,
+.tsiet,
+.tocho {
+  background: gray;
+}
+.tsiet,
+.tocho {
+  border-top: solid blue 1px;
+}
+.tocho,
+.vnuev {
+  border-right: solid blue 1px;
+}
+
+.trein,
+.tuno,
+.tdos,
+.tnuev {
+  background: rebeccapurple;
+}
+
+.ttres,
+.tcuat,
+.cuaren,
+.cuno {
+  background: pink;
+}
+.tcuat,
+.cuno {
+  border-right: solid blue 1px;
+}
+/* aplica la clase orange a algunas de tus etiquetas div para ver el efecto */
